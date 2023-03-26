@@ -21,7 +21,7 @@ export default function BreakingNewsPage({ newsArticles }: BreakingNewsPageProps
   return (
     <>
       <Head>
-        <title key="title">Breaking News - NextJS News App</title>
+        <title key="title">News Journey </title>
       </Head>
       <main>
         <h1>Breaking News</h1>

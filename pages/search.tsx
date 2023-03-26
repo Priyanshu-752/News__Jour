@@ -3,6 +3,9 @@ import { NewsArticle } from "@/modules/NewsArticles";
 import Head from "next/head";
 import { FormEvent, useState } from "react";
 import { Alert, Button, Form, Spinner } from "react-bootstrap";
+import Image from "next/image";
+import Saa from "../assets/images/news-journey-high-resolution-logo-color-on-transparent-background.png"
+
 
 const SearchNewsPage = () => {
     const [searchResults, setSearchResults] = useState<NewsArticle[] | null>(null);
@@ -60,6 +63,14 @@ const SearchNewsPage = () => {
                     {searchResults && <NewsArticlesGrid articles={searchResults} />}
                 </div>
             </main>
+            <Image
+                    src={Saa}
+                    width={450}
+                    height={170}
+                    alt="News article Logo"
+                    
+                />
+        
         </>
     );
 }
