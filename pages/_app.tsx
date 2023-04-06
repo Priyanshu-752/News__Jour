@@ -7,7 +7,7 @@ import { Container } from 'react-bootstrap';
 import styles from "@/styles/App.module.css";
 import NavBar from '@/components/NavBar';
 import NextNProgress from "nextjs-progressbar";
-import Footer from "../pages/Footer"
+import Footer from "./footer"
 
 const inter = Inter({ subsets: ['latin'] });
 
